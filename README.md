@@ -33,7 +33,11 @@ Our analysis of the student and school data sets, accounting for academic dishon
 
 - District Summary with Thomas High School 9th grader grades:
 
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/district_summary_df_before.PNG)
+
 - District Summary without Thomas High School 9th grader grades:
+
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/district_summary_df_after.PNG)
 
 The School Summary was also affected by the absence of grades from 9th graders at Thomas High School.
 
@@ -43,23 +47,57 @@ The School Summary was also affected by the absence of grades from 9th graders a
 
 - Finally, our school summary demonstrates a more marked change in the percentage of students who passed math, reading, or both subjects. This again is due to the fact that our calculations for these columns take the now lowered count of students with grades above 70 (the predetermined passing grade) as the numerator while using the unchanged total count of students as the denominator when calculating percentage of passing students.
 
-- District Summary with Thomas High School 9th grader grades:
+- School Summary with Thomas High School 9th grader grades:
 
-- District Summary without Thomas High School 9th grader grades:
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/school_summary_df_before.PNG)
+
+- School Summary without Thomas High School 9th grader grades:
+
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/school_summary_df_after.PNG)
 
 Replacing the ninth graders' math and reading scores affects the schools ranking due to the fact that school ranking is based on the "% Overall Passing" column. As has been pointed out, the percentage calculation under this column for Thomas High School shows a much lower percentage of students who passed both areas since the absence of grades for ninth graders leads to a smaller sum of students with passing grades while there is an unchanged student count.
 
 - School rankings with Thomas High School 9th grader grades:
 
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/top_schools_df_before.PNG)
+
 - School rankings without Thomas High School 9th grader grades:
+
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/top_schools_df_after.PNG)
 
 Replacing the ninth grader scores resulted in a NaN value being reflected under math and reading scores by grade in each dataframe respectively:
 
+![]()
+
 Replacing the ninth grader scores lowered the values under the "% Passing Math", "% Passing Reading", and "% Overall Passing" columns for the "$630-645 Spending Ranges (Per Student" group as this is the bin that Thomas High School falls under:
+
+- Per Student Spending with Thomas High School 9th grader grades:
+
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/scores_by_school_spending_before.PNG)
+
+- Per Student Spending without Thomas High School 9th grader grades:
+
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/scores_by_school_spending_after.PNG)
 
 Because Thomas High School falls under the "Medium" bin in our size_summary_df, replacing the ninth grade scores resulted in the following lowered values in the "% Passing Math", "% Passing Reading", and "% Overall Passing" columns:
 
+- School Size summary with Thomas High School 9th grader grades:
+
+![]()
+
+- School Size summary without Thomas High School 9th grader grades:
+
+![]()
+
 Since Thomas High School is a Charter school, the values under the "% Passing Math", "% Passing Reading", and "% Overall Passing" columns in our type_summary_df were lowered as follows:
+
+- School Type summary with Thomas High School 9th grader grades:
+
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/type_summary_df_before.PNG)
+
+- School Type summary without Thomas High School 9th grader grades:
+
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/type_summary_df_after.PNG)
 
 ### Challenge Summary
 
