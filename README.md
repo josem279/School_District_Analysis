@@ -67,7 +67,7 @@ Replacing the ninth graders' math and reading scores affects the schools ranking
 
 Replacing the ninth grader scores resulted in a NaN value being reflected under math and reading scores by grade in each dataframe respectively:
 
-![]()
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/math_score_by_grade_after.PNG)
 
 Replacing the ninth grader scores lowered the values under the "% Passing Math", "% Passing Reading", and "% Overall Passing" columns for the "$630-645 Spending Ranges (Per Student" group as this is the bin that Thomas High School falls under:
 
@@ -83,11 +83,11 @@ Because Thomas High School falls under the "Medium" bin in our size_summary_df, 
 
 - School Size summary with Thomas High School 9th grader grades:
 
-![]()
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/scores_by_school_size_before.PNG)
 
 - School Size summary without Thomas High School 9th grader grades:
 
-![]()
+![](https://github.com/josem279/School_District_Analysis/blob/master/Resources/scores_by_school_size_after.PNG)
 
 Since Thomas High School is a Charter school, the values under the "% Passing Math", "% Passing Reading", and "% Overall Passing" columns in our type_summary_df were lowered as follows:
 
